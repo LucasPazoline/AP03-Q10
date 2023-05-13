@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP03-Q10</title>
+    <style>
+    body{
+        background-color:darkgrey 
+    }
+    legend{
+        font-weight: bolder;
+    }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Ficha de Inscrição</legend>
+        <fieldset>
+            <legend>Dados Básicos</legend>
+            Nome: <input type="text">
+            Dt. Nasc:<input type="date">
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="sexo" value="1">Masculino
+                <input type="radio" name="sexo" value="2">Feminino
+                
+            </fieldset>
+
+        </fieldset>
+        <fieldset>
+            <legend>Assinale abaixo os programas de computador que você domina:</legend>
+            <input type="checkbox" name="dom" value="1">Word
+            <input type="checkbox" name="dom" value="2">Exel
+            <input type="checkbox" name="dom" value="3">Access
+            <input type="checkbox" name="dom" value="4">Power Point
+        </fieldset>
+        <fieldset>
+            <legend>Cargo:</legend>
+            <select>
+            <option value="Ge">Gerente</option>
+            <option value="As">Analista de Sistemas</option>
+            <option value="Or">Orelha</option>
+        </select>
+        </fieldset>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <input type="submit">
+            <input type="reset">
+        </fieldset>
+    </form>
+</body>
+</html>
